@@ -14,7 +14,8 @@
     "@types/node": "^18.0.6",
     "axios": "^1.6.8",
     "react": "^18.3.1",
-    "react-router-dom": "^6.23.1"
+    "react-router-dom": "^6.23.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
     "buffer": "^6.0.3",
