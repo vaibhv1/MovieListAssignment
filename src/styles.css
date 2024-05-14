@@ -1,0 +1,63 @@
+.title {
+  background-color: darkgray;
+  margin-top: 20px;
+  text-align: center;
+  font-size: 40;
+  font-style: oblique;
+  color: rgb(128, 51, 51);
+}
+#title {
+  text-align: center;
+  font-weight: bolder;
+  font-size: large;
+  color: whitesmoke;
+}
+.rating{
+  text-align: center;
+}
+.movie-list{
+  background-color: black ;
+}
+.movieCard{
+  background-color: gray;
+}
+
+.Body {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  background-color: black;
+}
+.movies-released{
+  text-align: center;
+  color: white;
+}
+.movieCard {
+  border: 1px solid black;
+  width: 200px;
+  margin-right: 10px;
+  margin-top: 40px;
+  height: 400px;
+  margin-left: 10%;
+  margin-bottom: 10%;
+}
+#title {
+  margin-top: 10px;
+}
+img {
+  width: 200px;
+  height: 300px;
+  display: block;
+}
+.titleHead{
+  text-align: center;
+  color: white;
+}
+.genre-item:hover {
+  transform: translateX(10px); /* Adjust the value as needed */
+}
+.movie-list-container {
+  scroll-behavior: smooth;
+}
+.whole{
+  background-color: black;  
+}
