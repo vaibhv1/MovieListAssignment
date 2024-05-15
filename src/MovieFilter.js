@@ -94,7 +94,7 @@ const MovieFilter = ({ onFilterActive }) => {
                 style={{
                   margin: '0.5rem',
                   padding: '0.5rem 1rem',
-                  background: selectedGenres.includes(genre.id) ? '#007bff' : '#e0e0e0',
+                  background: selectedGenres.includes(genre.id) ? 'red' : '#e0e0e0',
                   color: selectedGenres.includes(genre.id) ? '#ffffff' : '#000000',
                   border: 'none',
                   borderRadius: '5px',
